@@ -18,3 +18,10 @@ exports.create = async (req, res) => {
     res.status(200).json({ status: 'success', data: 'Comment updated' });
   };
   
+
+git init
+git remote add origin https://github.com/mehedi8552/modiule-7.git
+git branch -M main
+git add .
+git commit -m 'My first feature'
+git push -u origin main
